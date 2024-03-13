@@ -9,5 +9,7 @@
 
 
 @include('shared.nav.top-bar')
+@include('shared.nav.nav-bar')
+@include('shared.nav.mobile-menu')
 
 </x-layouts.master>

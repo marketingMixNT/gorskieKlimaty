@@ -12,8 +12,8 @@ export default {
                 max: "2200px",
             },
             fontFamily: {
-                // heading: ["Playfair Display",'serif'],
-                // text: ["Hind", 'sans-serif'],
+                heading: ["Jost",'serif'],
+                text: ["Jost", 'sans-serif'],
                 // handwriting:["Dancing Script", 'cursive']
             },
             colors: {

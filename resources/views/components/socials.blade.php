@@ -1,4 +1,4 @@
-<div class="flex  gap-2">
+<div class="hidden lg:flex  gap-2">
     <a href="">
 
         <img src="{{ asset('assets/icons/facebook--dark.svg') }}" alt="" class="w-7">

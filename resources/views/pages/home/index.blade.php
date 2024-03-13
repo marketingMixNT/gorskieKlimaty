@@ -8,5 +8,6 @@
        'desc')
 
 
+@include('shared.nav.top-bar')
 
 </x-layouts.master>

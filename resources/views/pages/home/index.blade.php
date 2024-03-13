@@ -1,0 +1,12 @@
+<x-layouts.master>
+
+    {{-- @section('title', __('home.title') )
+    @section('description',
+       __('home.description')) --}}
+    @section('title', 'title' )
+    @section('description',
+       'desc')
+
+
+
+</x-layouts.master>

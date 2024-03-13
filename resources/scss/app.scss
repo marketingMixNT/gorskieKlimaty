@@ -1,4 +1,6 @@
 @use './hamburger-btn.scss';
+@use './header.scss';
+@use './mobile-menu.scss';
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -24,12 +26,3 @@ h6 {
 
 
 
-.menu-open {
-    transition: ease, transform 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transform: translateX(50%);
-}
-
-.menu-close {
-    transition: ease, transform 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transform: translateX(100%);
-}

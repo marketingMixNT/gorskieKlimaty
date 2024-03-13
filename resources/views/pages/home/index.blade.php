@@ -8,8 +8,8 @@
        'desc')
 
 
-@include('shared.nav.top-bar')
-@include('shared.nav.nav-bar')
-@include('shared.nav.mobile-menu')
+@include('pages.home.sections.header')
+
+
 
 </x-layouts.master>

@@ -19,20 +19,21 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#242424"> --}}
 
-   
+
 
     <!-- Scripts -->
-   
-   
+
+
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
 </head>
 
-<body  class="overflow-x-hidden">
-   
+<body class="overflow-x-hidden">
+
     <!--NAVIGATION-->
-    {{-- @include('shared.nav.nav-bar')
-    @include('shared.nav.menu') --}}
+    @include('shared.nav.top-bar')
+    @include('shared.nav.nav-bar')
+    @include('shared.nav.mobile-menu')
     <!--PRELOADER-->
     {{-- <x-preloader /> --}}
 
@@ -40,12 +41,12 @@
     {{ $slot }}
 
     <!--FOOTER-->
-    
+
     {{-- @include('shared.footer')
     @include('shared.mobile-buttons') --}}
 
     <!--SCRIPTS-->
-   
+    <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
 </body>
 
 </html>

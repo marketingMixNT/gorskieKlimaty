@@ -21,7 +21,10 @@ export default {
                     400: "#fff",
                 },
                 secondary: {
-                    400: "#ccc",
+                    400: "#525252",
+                },
+                action:{
+                    400:'#efc71a'
                 },
                 fontLight: "#fff",
                 fontDark: "#000",
@@ -35,5 +38,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [require('flowbite/plugin')],
 };

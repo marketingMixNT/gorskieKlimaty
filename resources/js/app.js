@@ -1,19 +1,14 @@
 import './bootstrap';
+import 'flowbite';
 import Alpine from 'alpinejs';
 window.Alpine = Alpine;
 Alpine.start();
 
 
+import'./partials/mobileMenu'
 
-const hamburgerBtn = document.querySelector('.hamburger')
-const menu = document.querySelector('#menu')
 
-const hamburgerHandler = () => {
-    hamburgerBtn.classList.toggle("is-active");
-    menu.classList.toggle("menu-open");
-    menu.classList.toggle("menu-close");
-}
-hamburgerBtn.addEventListener('click',hamburgerHandler)
+
 
 
 

@@ -1,4 +1,6 @@
 @use'./global';
+@use'./hovers';
+
 @use './hamburger-btn.scss';
 @use './header.scss';
 @use './mobile-menu.scss';
@@ -11,7 +13,7 @@
 
 
 body {
-    @apply font-text tracking-wider;
+    @apply font-text text-fontDark tracking-wider;
 }
 
 

@@ -9,7 +9,7 @@
         </div>
         <!--CENTER-->
         <a href="{{ route('home') }}" class="absolute left-1/2 transform -translate-x-1/2 ">
-            <img src="/assets/logo/logo.jpeg" alt="logo Villa Górskie Klimaty" class=" w-16 sm:w-24 " />
+            <img src="{{asset('/assets/logo/logo.jpeg')}}" alt="logo Villa Górskie Klimaty" class=" w-16 sm:w-24 " />
         </a>
         <!--RIGHT SIDE-->
         <div class="flex justify-center items-center gap-12 ">

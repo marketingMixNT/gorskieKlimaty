@@ -9,6 +9,12 @@
 
 
 @include('pages.home.sections.header')
+@include('pages.home.sections.apartments')
+@include('pages.home.sections.amenities')
+@include('pages.home.sections.about')
+@include('pages.home.sections.hero')
+@include('pages.home.sections.attractions')
+@include('pages.home.sections.gallery')
 
 
 

@@ -42,8 +42,8 @@
 
     <!--FOOTER-->
 
-    {{-- @include('shared.footer')
-    @include('shared.mobile-buttons') --}}
+    @include('shared.footer')
+    @include('shared.mobile-buttons')
 
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>

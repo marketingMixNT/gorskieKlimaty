@@ -4,8 +4,6 @@
     {{-- NAV ITEMS --}}
     @include('shared.nav.mobile-nav-items')
 
-    {{-- LOGO --}}
-    <img src="/assets/decor--light.png" alt="" class="w-16 md:w-18 2xl:w-20 2xl:my-6" />
     <!--MOBILE LANGUAGE SWITCHER-->
     <div class="lg:hidden mt-6 absolute right-5 bottom-5 text-white">
         <ul class="flex justify-center items-center gap-5 list-none">

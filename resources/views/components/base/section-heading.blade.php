@@ -1,1 +1,1 @@
-<h2 class="text-5xl">{{$slot}}</h2>
+<h2 class="text-5xl md:opacity-0 heading-section-animation">{{$slot}}</h2>

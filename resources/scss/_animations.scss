@@ -14,6 +14,22 @@
     opacity: 1;
   }
 }
+//heading-section
+.focus-in-expand {
+	animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 
 //text
 .text-focus-in {
@@ -30,6 +46,21 @@
   }
 }
 
+//ken-burns
+.kenburns {
+	animation: kenburns 5s ease-out both;
+}
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 84%;
+  }
+  100% {
+    transform: scale(1.25) translateY(15px);
+    transform-origin: bottom;
+  }
+}
+
 //image-top
 .scale-in-ver-top {
 	animation: scale-in-ver-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -38,7 +69,7 @@
     0% {
       transform: scaleY(0);
       transform-origin: 100% 0%;
-      opacity: 1;
+      opacity: 0;
     }
     100% {
       transform: scaleY(1);

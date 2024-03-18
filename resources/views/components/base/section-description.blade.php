@@ -1,1 +1,1 @@
-    <p class="text-lg  font-light max-w-screen-lg font-text leading-9 text-center">{{$slot}}</p>
+    <p class="text-lg  font-light max-w-screen-lg font-text leading-9 text-center md:opacity-0 text-animation">{{$slot}}</p>

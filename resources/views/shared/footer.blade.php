@@ -1,5 +1,5 @@
 
-<footer class="bg-bgDark-400 py-12 text-fontLight pb-24 lg:pb-12">
+<footer class="bg-secondary-400 py-12 text-fontLight pb-24 lg:pb-12">
     <!--CONTAINER-->
     <div class="max-w-screen-xl mx-auto space-y-10">
           <!--GRID-->
@@ -10,7 +10,7 @@
             >
                 <a href="/">
                     <img
-                    src="{{asset('/assets/logo/logo.jpeg')}}"
+                    src="{{asset('/assets/logo/logo.png')}}"
                         alt="logo Villa Górskie Klimaty"
                         class="w-32 lg:ml-16"
                 /></a>
@@ -23,7 +23,7 @@
                     <h2 class="font-heading text-lg uppercase mb-2">
                         Zadzwoń do nas
                     </h2>
-                    <a href="tel:+48182071252" class="font-thin font-heading link-hover"
+                    <a href="tel:+48182071252" class="font-thin font-heading link-hover--white"
                         >+48 18 20 712 52</a
                     >
                 </div>
@@ -31,7 +31,7 @@
                     <h2 class="font-heading text-lg uppercase mb-2">
                         Napisz do nas
                     </h2>
-                    <a href="mailto:kontakt@zajazdsleboda.pl" class="font-thin font-heading link-hover"
+                    <a href="mailto:kontakt@zajazdsleboda.pl" class="font-thin font-heading link-hover--white"
                         >kontakt@zajazdsleboda.pl</a
                     >
                 </div>
@@ -41,7 +41,7 @@
                 class="mx-4 md:mx-12 flex flex-col justify-center items-center text-center sm:justify-start sm:items-start sm:text-start"
             >
                 <h2 class="font-heading text-lg uppercase mb-2">Adres</h2>
-                <a href="https://maps.app.goo.gl/3HfZNtS3cm6ZDiTc8" target="_blank" class="font-thin font-heading link-hover"
+                <a href="https://maps.app.goo.gl/3HfZNtS3cm6ZDiTc8" target="_blank" class="font-thin font-heading link-hover--white"
                     >Szlak Papieski 252<br />34-521 Ząb</a
                 >
             </div>
@@ -73,9 +73,9 @@
         <hr class="opacity-40" />
         <ul class="flex justify-center items-center gap-8 text-xs py-4">
             <li>
-                <a href="" class="link-hover">Polityka Prywatności</a>
+                <a href="" class="link-hover--white">Polityka Prywatności</a>
             </li>
-            <li><a href="" class="link-hover"> Regulamin</a></li>
+            <li><a href="" class="link-hover--white"> Regulamin</a></li>
         </ul>
         <hr class="opacity-40" />
     </div>
@@ -86,7 +86,7 @@
         >
             <a
                 href="/"
-                class="flex gap-2 justify-start items-center link-hover"
+                class="flex gap-2 justify-start items-center link-hover--white"
             >
                 <span >© <span x-data="{ year: (new Date()).getFullYear() }" x-text="year"></span></span>
                 <span>Śleboda Zajazd</span>

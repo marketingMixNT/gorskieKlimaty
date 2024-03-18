@@ -12,22 +12,22 @@ class PageController extends Controller
         $apartments = [
             [
                 "id" => 1,
-                'title' => "Apartament",
-                'image' => "/assets/images/header--big.webp",
+                'title' => "typu Standard",
+                'image' => "/assets/images/gorskie_klimaty-23.jpg",
                 'persons' => '2',
                 'link' => '#',
             ],
             [
                 "id" => 2,
-                'title' => "Apartament typu studio",
-                'image' => "/assets/images/header2--big.webp",
+                'title' => "typu studio",
+                'image' => "/assets/images/gorskie_klimaty-15.jpg",
                 'persons' => '4',
                 'link' => '#',
             ],
             [
                 "id" => 3,
-                'title' => "Apartament z 1 sypialnią",
-                'image' => "/assets/images/header--big.webp",
+                'title' => "z 1 sypialnią",
+                'image' => "/assets/images/gorskie_klimaty-5.jpg",
                 'persons' => '5',
                 'link' => '#',
             ],

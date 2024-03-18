@@ -1,5 +1,5 @@
 <section id="apartamenty">
-    <div class="wrapper max-w-screen-xl">
+    <div class="wrapper max-w-screen-2xl">
         <div class="flex flex-col justify-center items-center gap-12">
 
             <x-base.section-heading>Apartamenty</x-base.section-heading>
@@ -12,7 +12,9 @@
         </div>
 
         {{-- APARTMENTS SLIDER --}}
-        <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
+        {{-- <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
+        </div> --}}
+        <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl md:opacity-0 opacity-animation"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
         </div>
 
 

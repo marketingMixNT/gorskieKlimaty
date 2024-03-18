@@ -3,7 +3,7 @@
     {{-- @section('title', __('home.title') )
     @section('description',
        __('home.description')) --}}
-    @section('title', 'title' )
+    @section('title', 'Villa Górskie Klimaty – Twoje Wyjątkowe Miejsce Wypoczynku w Sercu Zakopanego' )
     @section('description',
        'desc')
 

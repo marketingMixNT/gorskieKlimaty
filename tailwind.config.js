@@ -33,7 +33,7 @@ export default {
                 },
                 bgLight: {
                     200: "#fff",
-                    400: "#f6f6f6",
+                    400: "#eeeeee",
                 },
             },
         },

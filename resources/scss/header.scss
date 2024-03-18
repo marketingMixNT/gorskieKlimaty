@@ -4,11 +4,28 @@
     
   
 //BACKGROUND IAMGE LIST
+
+
+
+ 
   .bg-1 {
-    @apply bg-[url('../../public/assets/images/header2--big.webp')] 
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-13.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-13.jpg')]
   }
-  
   .bg-2 {
-   
-    @apply bg-[url('../../public/assets/images/header--small.jpeg')] sm:bg-[url('../../public/assets/images/header--big.webp')]
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-15.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-15.jpg')]
+  }
+  .bg-3 {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-17.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-17.jpg')]
+  }
+  .bg-4 {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-19.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-19.jpg')]
+  }
+  .bg-5 {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-21.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-21.jpg')]
+  }
+  .bg-6 {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-24.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-24.jpg')]
+  }
+  .bg-7 {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-27.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-27.jpg')]
   }

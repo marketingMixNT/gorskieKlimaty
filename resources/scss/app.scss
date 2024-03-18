@@ -1,18 +1,12 @@
-@use'./global';
-@use'./hovers';
+@use "./global";
+@use "./animations";
+@use "./hovers";
 
-@use './hamburger-btn.scss';
-@use './header.scss';
-@use './mobile-menu.scss';
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-
+@use "./hamburger-btn.scss";
+@use "./header.scss";
+@use "./mobile-menu.scss";
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
-
-
-

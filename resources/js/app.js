@@ -7,6 +7,7 @@ Alpine.start();
 import "./partials/mobileMenu";
 import "./partials/mobileBottomNav";
 import "./partials/header";
+import './partials/observer'
 
 
 import { createApp } from "vue";

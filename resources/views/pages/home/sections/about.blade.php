@@ -6,15 +6,14 @@
             <div class="lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start gap-10 order-1 lg:order-none">
                 <x-base.heading>O nas</x-base.heading>
                 <hr class="hr ">
-                <x-base.description > Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z
-                    nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok
-                    Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających
-                    Gości</x-base.description>
+                <x-base.description > Villa "Górskie Klimaty" to wyjątkowe miejsce, w którym tradycja spotyka się z nowoczesnością, oferując gościom niezapomniane wrażenia i wypoczynek na najwyższym poziomie. Położona w sercu Zakopanego, otoczona majestatycznymi szczytami Tatr, nasza willa stanowi idealną bazę dla miłośników górskich przygód oraz tych, którzy pragną na chwilę uciec od codziennej rutyny i zaznać spokoju wśród natury. Każdy element naszego obiektu został zaprojektowany z myślą o komforcie i zadowoleniu naszych gości, od elegancko urządzonych pokoi, przez domową atmosferę, aż po indywidualne podejście do potrzeb każdego odwiedzającego. </x-base.description>
                 <x-base.button href='#'>Dowiedz się więcej</x-base.button>
 
             </div>
             <div class="lg:w-1/2 ">
-                <img src="{{ asset('assets/images/header2--big.webp') }}" alt="" loading="lazy" class="max-h-[500px]">
+                <img src="{{ asset('assets/images/mobile/gorskie_klimaty-11.jpg') }}" alt="" loading="lazy" class=" max-h-[550px] sm:hidden">
+                <img src="{{ asset('assets/images/gorskie_klimaty-11.jpg') }}" alt="" loading="lazy" class="hidden sm:block max-h-[550px] opacity-0 image-animation-top">
+              
             </div>
         </div>
 

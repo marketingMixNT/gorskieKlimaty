@@ -6,7 +6,7 @@
             <div class="lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start gap-10 order-1 lg:order-none">
                 <x-base.heading>O nas</x-base.heading>
                 <hr class="hr ">
-                <x-base.description> Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z
+                <x-base.description > Willa Owce Dwie to niezwykłe miejsce, w którym tradycja spotyka się z
                     nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok
                     Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających
                     Gości</x-base.description>

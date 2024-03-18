@@ -20,5 +20,5 @@
         target="_blank"
         image="{{asset('assets/icons/mobile-buttons/phone.svg')}}">
         <span>Kontakt</span></x-mobile-buttons-item>
-
+        
 </nav>

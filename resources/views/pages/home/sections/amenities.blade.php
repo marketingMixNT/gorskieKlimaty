@@ -1,20 +1,13 @@
 <section>
-    <div class="max-w-screen-xl mx-auto">
+    <div class="wrapper max-w-screen-xl">
 
-        <div class="grid grid-cols-3 ">
+        <div class="grid gap-24 lg:gap-0 md:grid-cols-3 ">
             
-            <div class="flex flex-col justify-center items-center gap-4">
-                <img src="{{asset('assets/icons/wifi.svg')}}" alt="" class="w-20">
-                <h2 class="text-3xl">Darmowe WiFi</h2>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-4">
-                <img src="{{asset('assets/icons/wifi.svg')}}" alt="" class="w-20">
-                <h2 class="text-3xl">Darmowe WiFi</h2>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-4">
-                <img src="{{asset('assets/icons/wifi.svg')}}" alt="" class="w-20">
-                <h2 class="text-3xl">Darmowe WiFi</h2>
-            </div>
+           
+            <x-amenities-card src="{{asset('assets/icons/wifi.svg')}}" title="Darmowe WiFi" />
+            <x-amenities-card src="{{asset('assets/icons/parking.svg')}}" title="Parking" />
+            <x-amenities-card src="{{asset('assets/icons/kitchen.svg')}}" title="Sprzęt kuchenny" />
+           
             
         </div>
     </div>

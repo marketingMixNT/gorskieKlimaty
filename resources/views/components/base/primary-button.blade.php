@@ -1,1 +1,1 @@
-<a href="{{$href}}"><button class="border bg-black border-black text-white py-4 px-10 uppercase text-sm font-semibold hover:bg-gray-600 duration-300">{{$slot}}</button></a>
+<a href="{{$href}}"><button class="border bg-black border-black text-white py-4 px-10 uppercase text-sm font-semibold hover:bg-gray-600 duration-300 ">{{$slot}}</button></a>

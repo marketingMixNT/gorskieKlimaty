@@ -1,52 +1,20 @@
-<section>
+<section id="apartamenty">
     <div class="wrapper max-w-screen-xl">
-        <x-base.section-heading>Apartamenty</x-base.section-heading>
-        <x-base.section-description class='text-center'>W naszym obiekcie znajdziesz 12 przytulnych pokoi z osobnymi łazienkami,
-            zapewniających wyjątkowy komfort podczas pobytu. Położenie naszego miejsca sprawia, że stanowi doskonałą
-            bazę wypadową do górskich przygód. Profesjonalny personel jest gotowy zadbać o każdy detal Twojego pobytu,
-            zapewniając niezapomniane doświadczenie.</x-base.section-description>
+        <div class="flex flex-col justify-center items-center gap-12">
+
+            <x-base.section-heading>Apartamenty</x-base.section-heading>
+            <x-base.section-description class='text-center'>W naszym obiekcie oferujemy przytulne apartamenty z osobnymi
+                łazienkami, które gwarantują wyjątkowy komfort podczas pobytu. Dzięki wyjątkowej lokalizacji, nasze
+                miejsce stanowi idealną bazę wypadową do odkrywania górskich szlaków i przygód. Nasz profesjonalny
+                personel zawsze jest gotowy, aby zadbać o każdy, nawet najmniejszy detal Twojego pobytu, zapewniając
+                niezapomniane doświadczenia.</x-base.section-description>
+            <hr class="hr mx-auto">
+        </div>
 
         {{-- APARTMENTS SLIDER --}}
-        <div class="grid grid-cols-3 gap-12 pt-16 pb-12">
-            {{--ITEM--}}
-            <div class="shadow-xl">
-                <img src="{{asset('assets/images/header--big.webp')}}" alt="">
-                <div class="flex flex-col justify-center items-center py-12">
-                    <h3>Rodzinny Pokój Deluxe z Balkonem</h3>
-                    <div>
-                        <span>item</span>
-                        <span>item</span>
-                        <span>item</span>
-                    </div>
-                    <a href="">zobacz</a>
-                </div>
-            </div>
-            {{--ITEM--}}
-            <div class="shadow-xl">
-                <img src="{{asset('assets/images/header--big.webp')}}" alt="">
-                <div class="flex flex-col justify-center items-center py-12">
-                    <h3>Rodzinny Pokój Deluxe z Balkonem</h3>
-                    <div>
-                        <span>item</span>
-                        <span>item</span>
-                        <span>item</span>
-                    </div>
-                    <a href="">zobacz</a>
-                </div>
-            </div>
-            {{--ITEM--}}
-            <div class="shadow-xl">
-                <img src="{{asset('assets/images/header--big.webp')}}" alt="">
-                <div class="flex flex-col justify-center items-center py-12">
-                    <h3>Rodzinny Pokój Deluxe z Balkonem</h3>
-                    <div>
-                        <span>item</span>
-                        <span>item</span>
-                        <span>item</span>
-                    </div>
-                    <a href="">zobacz</a>
-                </div>
-            </div>
+        <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
         </div>
+
+
     </div>
 </section>

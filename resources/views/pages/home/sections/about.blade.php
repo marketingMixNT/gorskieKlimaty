@@ -1,4 +1,4 @@
-<section>
+<section >
     <div class="wrapper max-w-screen-xl">
 
         <div class="flex justify-center items-center gap-12">

@@ -29,7 +29,7 @@
     @include('shared.nav.nav-bar')
     @include('shared.nav.mobile-menu')
     <!--PRELOADER-->
-    {{-- <x-preloader /> --}}
+    @include('shared.preloader')
 
 
     {{ $slot }}

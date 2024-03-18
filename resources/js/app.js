@@ -8,6 +8,7 @@ import "./partials/mobileMenu";
 import "./partials/mobileBottomNav";
 import "./partials/header";
 import './partials/observer'
+import './partials/preloader'
 
 
 import { createApp } from "vue";

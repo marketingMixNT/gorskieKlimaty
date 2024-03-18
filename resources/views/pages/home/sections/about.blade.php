@@ -10,7 +10,7 @@
                     nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok
                     Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających
                     Gości</x-base.description>
-                <x-base.primary-button href='#'>Dowiedz się więcej</x-base.primary-button>
+                <x-base.button href='#'>Dowiedz się więcej</x-base.button>
 
             </div>
             <div class="lg:w-1/2 ">

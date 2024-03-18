@@ -5,14 +5,11 @@
 
 
 
-
-        {{-- <x-base.heading subheading="Zajazd Śleboda" heading="Zarezerwuj swój wymarzony pobyt"
-            decor="Odkryj miejsce, gdzie każdy dzień jest niezapomniany" /> --}}
-<x-base.heading>Twój wymarzony pobyt zaczyna się tutaj - odkryj przyjemność w każdym detalu</x-base.heading>
+<x-base.heading class="leading-normal">Twój wymarzony pobyt zaczyna się tutaj - odkryj przyjemność w każdym detalu</x-base.heading>
 
 
-        <x-base.primary-button extraClasses="mt-16 px-20 lg:text-xl" href="#"
-            target="_blank">Zarezerwuj</x-base.primary-button>
+        <x-base.button type="third"  href="#"
+            target="_blank">Zarezerwuj</x-base.button>
     </div>
 
 </section>

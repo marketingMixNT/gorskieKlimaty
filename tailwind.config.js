@@ -19,8 +19,11 @@ export default {
             colors: {
                 primary: {
                     400: "#fff",
+                    600: "#eeeeee",
+                    
                 },
                 secondary: {
+                    200: "#818181",
                     400: "#525252",
                 },
                 action:{

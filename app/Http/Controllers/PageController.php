@@ -31,10 +31,15 @@ class PageController extends Controller
                 'persons' => '5',
                 'link' => '#',
             ],
-            
+
         ];
 
 
-        return view('pages.home.index',['apartments'=>$apartments]);
+        return view('pages.home.index', ['apartments' => $apartments]);
+    }
+
+    public function about()
+    {
+        return view('pages.about.index');
     }
 }

@@ -7,7 +7,7 @@
     'order' => '',
 ])
 
-<div class="flex flex-col lg:flex-row justify-center items-center gap-24">
+<div class="flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-24">
 
     <div
         class="lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start gap-10 {{ $order }}">

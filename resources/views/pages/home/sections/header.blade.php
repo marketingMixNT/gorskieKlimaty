@@ -6,7 +6,7 @@
     <div class="flex flex-col gap-9">
 
         <h1
-            class="text-center text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-wider uppercase font-heading font- heading-animation">
+            class="text-center text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl  uppercase   heading-animation">
             Villa Górskie Klimaty
 
         </h1>

@@ -12,22 +12,25 @@ export default {
                 max: "2200px",
             },
             fontFamily: {
-                heading: ["Jost",'serif'],
-                text: ["Jost", 'sans-serif'],
+                heading: ["Martel",'serif'],
+                text: ["Raleway", 'sans-serif'],
                 // handwriting:["Dancing Script", 'cursive']
             },
             colors: {
                 primary: {
                     400: "#fff",
                     600: "#eeeeee",
-                    
+    
                 },
                 secondary: {
                     200: "#818181",
                     400: "#525252",
                 },
                 action:{
-                    400:'#efc71a'
+                    200:'#FFDB3E',
+                    400:'#efc71a',
+                    600:'#FDCE05'
+                   
                 },
                 fontLight: "#fff",
                 fontDark: "#000",

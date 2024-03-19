@@ -5,7 +5,7 @@
        __('home.description')) --}}
     @section('title', 'Villa Górskie Klimaty – Twoje Wyjątkowe Miejsce Wypoczynku w Sercu Zakopanego' )
     @section('description',
-       'desc')
+       'Odkryj urok Zakopanego z Villa Górskie Klimaty: idealne miejsce dla szukających relaksu w Tatrach. Komfortowe pokoje, bliskość atrakcji i niezapomniane widoki.')
 
 
 @include('pages.home.sections.header')

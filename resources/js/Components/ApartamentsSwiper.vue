@@ -34,7 +34,7 @@
             <div
                 class="flex flex-col justify-center items-center text-center py-12 gap-6"
             >
-                <h3 class="text-3xl font-semibold  text-center">
+                <h3 class="text-3xl font-normal text-center">
                     Apartament <br />{{ apartment.title }}
                 </h3>
                 <div class="flex justify-center items-center gap-4">

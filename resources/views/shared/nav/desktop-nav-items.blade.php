@@ -20,7 +20,7 @@
             </ul>
         </div>
 
-<x-nav.nav-item href="#">Atrakcje</x-nav.nav-item>
+<x-nav.nav-item href="{{route('attractions')}}">Atrakcje</x-nav.nav-item>
 <x-nav.nav-item href="#">Galeria</x-nav.nav-item>
 <x-nav.nav-item href="#">Kontakt</x-nav.nav-item>
 

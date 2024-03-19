@@ -42,4 +42,8 @@ class PageController extends Controller
     {
         return view('pages.about.index');
     }
+    public function attractions()
+    {
+        return view('pages.attractions.index');
+    }
 }

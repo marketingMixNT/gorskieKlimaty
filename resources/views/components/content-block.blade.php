@@ -18,7 +18,7 @@
         @endif
     </div>
     <div class="lg:w-1/2 o">
-        <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy"
+        <img src="{{ $src }}" alt="{{ $alt }}" width='600' height='400' loading='lazy'
             class="h-[400px] w-full object-cover md:opacity-0 image-animation-top">
     </div>
 </div>

@@ -1,3 +1,7 @@
 .about-hero {
-    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-1.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-75.jpg')]
-  }
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-1.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-75.jpg')];
+}
+
+.attractions-hero {
+    @apply bg-[url('../../public/assets/images/headers/attractions-small.jpg')] sm:bg-[url('../../public/assets/images/headers/attractions-medium.jpg')] lg:bg-[url('../../public/assets/images/headers/attractions-big.jpg')];
+}

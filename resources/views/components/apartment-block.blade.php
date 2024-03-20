@@ -6,7 +6,7 @@
             class="w-full h-full object-cover duration-300 group-hover:scale-110">
     </div>
     {{-- TEXT --}}
-    <a href="{{ $link }}" class=" lg:w-1/2 flex flex-col justify-evenly items-start p-8 pb-12  xl:p-4 gap-10 xl:gap-0">
+    <a href="{{route($link)}}" class=" lg:w-1/2 flex flex-col justify-evenly items-start p-8 pb-12  xl:p-4 gap-10 xl:gap-0">
           {{-- TITLE --}}
           <span class="text-3xl font-semibold  ">
             Apartament {{ $title }}

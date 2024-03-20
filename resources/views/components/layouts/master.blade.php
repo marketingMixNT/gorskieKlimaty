@@ -31,8 +31,10 @@
     <!--PRELOADER-->
     @include('shared.preloader')
 
+<div id="app">
 
     {{ $slot }}
+</div>
 
     <!--FOOTER-->
 

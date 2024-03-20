@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\File;
 class PageController extends Controller
 {
 
-    private function imageCollection($images)
+    private function imageCollection(string $apartment)
     {
 
-
+        $images = File::files(public_path("/assets/images/apartments/{{$apartment}}/"));
 
         $imagesArray = collect($images)->map(function ($image) {
             return asset(str_replace(public_path(), '', $image->getPathname()));
@@ -108,7 +108,7 @@ class PageController extends Controller
             'icon' => 'assets/icons/amenities/spoon.svg',
             'name' => 'Przybory kuchenne'
         ],
-        
+
     ];
 
 
@@ -133,13 +133,15 @@ class PageController extends Controller
     public function standard()
     {
 
-        $images = File::files(public_path('/assets/images/apartments/standard/'));
+        $imagesArray = $this->imageCollection('standard');
 
+        $apartment = $this->apartments[0];
 
-        $imagesArray = $this->imageCollection($images);
+        $otherApartments = collect($this->apartments)->filter(function ($apartment) {
+            return $apartment['id'] == 2 || $apartment['id'] == 3;
+        })->values();
 
-
-        return view('pages.apartments.standard.index', ['images' => $imagesArray,'amenities'=>$this->amenities]);
+        return view('pages.apartments.standard.index', ['images' => $imagesArray, 'amenities' => $this->amenities, 'apartment' => $apartment, 'otherApartments' => $otherApartments]);
     }
     public function studio()
     {

@@ -70,7 +70,8 @@ export default {
     display: block;
     max-height: 900px;
     width: 100%;
-    padding: 100px;
+ 
     object-fit: cover;
+    @apply py-12 px-0 lg:p-16 xl:p-24 2xl:p-32
 }
 </style>

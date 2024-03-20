@@ -43,10 +43,10 @@
                     </div>
 
                     {{-- ICONS --}}
-                    @include('pages.apartments.sections.features')
+                    @include('pages.apartments._sections.features')
 
                     {{-- AMENITIES --}}
-                    @include('pages.apartments.sections.amenities')
+                    @include('pages.apartments._sections.amenities')
                 </div>
             </div>
             <!--SLIDER-->
@@ -61,7 +61,7 @@
             </div>
             <!--OTHER ROOMS-->
             <div class="wrapper max-w-screen-xl">
-                @include('pages.apartments.sections.other_rooms')
+                @include('pages.apartments._sections.other_rooms')
 
 
 

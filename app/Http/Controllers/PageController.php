@@ -146,12 +146,28 @@ class PageController extends Controller
     public function studio()
     {
 
-        return view('pages.apartments.studio.index');
+        $imagesArray = $this->imageCollection('studio');
+
+        $apartment = $this->apartments[1];
+
+        $otherApartments = collect($this->apartments)->filter(function ($apartment) {
+            return $apartment['id'] == 1 || $apartment['id'] == 3;
+        })->values();
+
+        return view('pages.apartments.studio.index', ['images' => $imagesArray, 'amenities' => $this->amenities, 'apartment' => $apartment, 'otherApartments' => $otherApartments]);
     }
     public function one_bedroom()
     {
 
-        return view('pages.apartments.one_bedroom.index');
+        $imagesArray = $this->imageCollection('onebedroom');
+
+        $apartment = $this->apartments[2];
+
+        $otherApartments = collect($this->apartments)->filter(function ($apartment) {
+            return $apartment['id'] == 1 || $apartment['id'] == 2;
+        })->values();
+
+        return view('pages.apartments.one_bedroom.index', ['images' => $imagesArray, 'amenities' => $this->amenities, 'apartment' => $apartment, 'otherApartments' => $otherApartments]);
     }
 
     public function attractions()

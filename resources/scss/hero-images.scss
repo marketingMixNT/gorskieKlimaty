@@ -10,6 +10,14 @@
     @apply bg-[url('../../public/assets/images/apartments/standard/mobile/apartament_standard-4.jpg')] sm:bg-[url('../../public/assets/images/apartments/standard/apartament_standard-4.jpg')];
 }
 
+.studio-hero {
+    @apply bg-[url('../../public/assets/images/apartments/studio/mobile/apartament_studio-6.jpg')] sm:bg-[url('../../public/assets/images/apartments/studio/apartament_studio-6.jpg')];
+}
+.one-bedroom-hero {
+    @apply bg-[url('../../public/assets/images/apartments/onebedroom/mobile/apartament_1sypialnia-4.jpg')] sm:bg-[url('../../public/assets/images/apartments/onebedroom/apartament_1sypialnia-4.jpg')];
+}
+
+
 .attractions-hero {
     @apply bg-[url('../../public/assets/images/headers/attractions-small.jpg')] sm:bg-[url('../../public/assets/images/headers/attractions-medium.jpg')] lg:bg-[url('../../public/assets/images/headers/attractions-big.jpg')];
 }

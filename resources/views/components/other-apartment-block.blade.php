@@ -28,7 +28,7 @@ class="flex flex-col  gap-6   group shadow-lg hover:shadow-2xl duration-300 bord
 
     </div>
     {{-- DESCRIPTION --}}
-    <a href="{{$link}}" class="link-hover font-semibold">Sprawdź</a>
+    <a href="{{route($link)}}" class="link-hover font-semibold">Sprawdź</a>
 
     </d>
 

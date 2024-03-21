@@ -1,4 +1,4 @@
-@props(['type' => 'primary', 'href' => 'string','class'=>'string'])
+@props(['type' => 'primary', 'href' => '','class'=>''])
 
 
 

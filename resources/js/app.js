@@ -4,11 +4,16 @@ import Alpine from "alpinejs";
 window.Alpine = Alpine;
 Alpine.start();
 
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.min.css';
+const lightbox = GLightbox({  loop:true });
+
 import "./partials/mobileMenu";
 import "./partials/mobileBottomNav";
 import "./partials/header";
 import './partials/observer'
 import './partials/preloader'
+import './partials/filterGallery'
 
 
 import { createApp } from "vue";

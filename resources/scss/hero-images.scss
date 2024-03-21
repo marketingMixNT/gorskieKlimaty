@@ -1,9 +1,9 @@
 .about-hero {
-    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-1.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-75.jpg')];
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-75.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-75.jpg')];
 }
 
 .apartments-hero {
-    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-21.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-66.jpg')];
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-66.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-66.jpg')];
 }
 
 .standard-hero {
@@ -17,8 +17,10 @@
     @apply bg-[url('../../public/assets/images/apartments/onebedroom/mobile/apartament_1sypialnia-4.jpg')] sm:bg-[url('../../public/assets/images/apartments/onebedroom/apartament_1sypialnia-4.jpg')];
 }
 
-
 .attractions-hero {
     @apply bg-[url('../../public/assets/images/headers/attractions-small.jpg')] sm:bg-[url('../../public/assets/images/headers/attractions-medium.jpg')] lg:bg-[url('../../public/assets/images/headers/attractions-big.jpg')];
 }
 
+.gallery-hero {
+    @apply bg-[url('../../public/assets/images/mobile/gorskie_klimaty-56.jpg')] sm:bg-[url('../../public/assets/images/gorskie_klimaty-56.jpg')];
+}

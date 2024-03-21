@@ -20,6 +20,27 @@ class PageController extends Controller
         return $imagesArray;
     }
 
+    private function imageGalleryCollection(string $apartment)
+    {
+        $bigImages = File::files(public_path("/assets/images/apartments/{{$apartment}}/"));
+        $smallImages = File::files(public_path("/assets/images/apartments/{{$apartment}}/mobile"));
+
+        return collect($bigImages)->map(function ($bigImage) use ($smallImages) {
+            $filename = $bigImage->getFilename();
+            $smallImage = collect($smallImages)->first(function ($smallImage) use ($filename) {
+                return $smallImage->getFilename() === $filename;
+            });
+
+            return [
+                'thumbnail' => $smallImage ? asset(str_replace(public_path(), '', $smallImage->getPathname())) : null,
+                'full' => asset(str_replace(public_path(), '', $bigImage->getPathname())),
+            ];
+        })->shuffle()->toArray();
+    }
+
+
+
+
     private  $apartments = [
         [
             "id" => 1,
@@ -173,5 +194,18 @@ class PageController extends Controller
     public function attractions()
     {
         return view('pages.attractions.index');
+    }
+    public function gallery()
+    {
+
+        $standardImages = $this->imageGalleryCollection('standard');
+        $studioImages = $this->imageGalleryCollection('studio');
+        $onebedroomImages = $this->imageGalleryCollection('onebedroom');
+
+        return view('pages.gallery.index', ['standardImages' => $standardImages,'studioImages'=>$studioImages, 'onebedroomImages'=>$onebedroomImages]);
+    }
+    public function contact()
+    {
+        return view('pages.contact.index');
     }
 }

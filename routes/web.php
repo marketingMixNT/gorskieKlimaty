@@ -14,3 +14,5 @@ Route::prefix('apartamenty')->name('apartments.')->group(function () {
 });
 
 Route::get('/atrakcje', [PageController::class, 'attractions'])->name('attractions');
+Route::get('/galeria', [PageController::class, 'gallery'])->name('gallery');
+Route::get('/kontakt', [PageController::class, 'contact'])->name('contact');

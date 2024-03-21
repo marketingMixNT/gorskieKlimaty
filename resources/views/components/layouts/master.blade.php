@@ -16,8 +16,6 @@
 
 
     <!-- Scripts -->
-
-
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
 </head>
@@ -43,6 +41,9 @@
 
     <!--SCRIPTS-->
     <script src="https://wis.upperbooking.com/owcedwie/be-panel?locale=pl" async></script>
+
+
+  
 </body>
 
 </html>

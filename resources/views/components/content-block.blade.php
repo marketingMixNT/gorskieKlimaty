@@ -14,7 +14,7 @@
         <x-base.heading class="font-semibold">{{ $heading }}</x-base.heading>
         <x-base.description> {{ $slot }}</x-base.description>
         @if ($link)
-            <a href="{{ $href }}" class="uppercase font-semibold text-sm link-hover">Dowiedz się więcej</a>
+            <a href="{{ $href }}" class="uppercase font-semibold text-sm link-hover self-start">Dowiedz się więcej</a>
         @endif
     </div>
     <div class="lg:w-1/2 o">

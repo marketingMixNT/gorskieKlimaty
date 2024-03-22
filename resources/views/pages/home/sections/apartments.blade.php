@@ -12,9 +12,7 @@
         </div>
 
         {{-- APARTMENTS SLIDER --}}
-        {{-- <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
-        </div> --}}
-        <div id="apartamentsSwiper" class="mt-16 px-12 2xl:px-4 max-w-screen-2xl md:opacity-0 opacity-animation"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
+        <div id="apartamentsSwiper" class="mt-16 sm:px-12 2xl:px-4 max-w-screen-2xl md:opacity-0 opacity-animation"><apartaments-swiper :apartments="{{ json_encode($apartments) }}"></apartaments-swiper>
         </div>
 
 

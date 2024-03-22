@@ -5,17 +5,16 @@
     <!--HEADING-->
     <div class="flex flex-col gap-9">
 
-        <h1
-            class="text-center text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl  uppercase   heading-animation">
+        <h1 class="text-center text-4xl xs:text-5xl sm:text-6xl md:text-7xl 2xl:text-8xl  uppercase   ">
             Villa Górskie Klimaty
 
         </h1>
-        <span class=" font-text text-sm md:text-xl  tracking-widest uppercase heading-animation ">Elegancja
+        <span class=" font-text text-sm md:text-lg 2xl:text-xl  tracking-widest uppercase heading-animation ">Elegancja
             i Spokój pośród Tatrzanskich Szczytów</span>
 
 
 
-        <x-base.button type="third" class="lg:hidden">Zarezerwuj</x-base.button>
+        <x-base.button type="third" class="lg:hidden" aria-label="Zarezerwuj">Zarezerwuj</x-base.button>
     </div>
 
 

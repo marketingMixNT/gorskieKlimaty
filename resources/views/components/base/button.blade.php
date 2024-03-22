@@ -1,4 +1,8 @@
-@props(['type' => 'primary', 'href' => '','class'=>''])
+@props([
+    'type' => 'primary',
+    'href' => '',
+    'class' => '',
+])
 
 
 
@@ -8,4 +12,4 @@
     {{ $type === 'secondary' ? 'border-white bg-white text-fontDark' : '' }} 
     {{ $type === 'third' ? 'border-action-400 bg-action-400 text-fontDark hover:bg-white ' : '' }} 
      
-      {{$class}}">{{ $slot }}</button></a>
+      {{ $class }}">{{ $slot }}</button></a>

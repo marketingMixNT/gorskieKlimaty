@@ -20,7 +20,7 @@
             </div>
 
 
-            <x-base.button type="third" href="#" target="_blank">Zarezerwuj</x-base.button>
+            <x-base.button type="third" href="#" target="_blank" aria-label="Zarezerwuj">Zarezerwuj</x-base.button>
         </div>
 
     </div>
